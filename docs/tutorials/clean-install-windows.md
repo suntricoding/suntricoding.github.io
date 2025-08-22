@@ -9,9 +9,11 @@ Guide on how to backup your data and clean install Windows.
 - A genuine Windows ISO file, you can download from https://msdl.gravesoft.dev/
 - The latest version of Rufus from https://rufus.ie/
 - A minimum 8GB USB drive  
-- Follow this [guide](remove_malware.md) before making a bootable USB if you think the system has malware.
-<details>
-  <summary>Another clean system if your current system is infected with File infector malware.</summary>
+- Follow this [guide](#) before making a bootable USB if you think the system has malware.
+
+::: details Another clean system if your current system is
+
+infected with File infector malware.
 
   **Why?**  
   Because file infector malware can copy itself to the bootable USB that you are going to make to perform a clean installation.  
@@ -24,8 +26,7 @@ Guide on how to backup your data and clean install Windows.
   **What if you don't have another clean system?**  
   You can try Dr.Web https://free.drweb.com/download+cureit/gr to remove file infector malware. However in some cases, it may miss to remove all, that's why its best to make bootable USB on another clean system.
 
-
-</details>
+:::
 
 ---
 
@@ -33,11 +34,9 @@ Guide on how to backup your data and clean install Windows.
 
 The clean installation process will format the C drive where Windows is installed; if you have any data in the C drive, you need to back it up.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+:::tabs Multiple partition
 
-<Tabs>
-<TabItem value="multiple_partition" label="I have multiple partitions on my drive, like C:\ D:\" default>
+== tabs Multiple partition
 
 - You can copy your data from C drive and paste it into other partitions.
 - Your data is usually located in the below place on the C drive,  
@@ -45,9 +44,7 @@ import TabItem from '@theme/TabItem';
   - Your data is saved in Desktop, Documents, Downloads, Music, Pictures, and Videos folders.
   - Save these folders in another partition to backup.
 
-</TabItem>
-
-<TabItem value="one_partition" label="I have C:\ drive only" default>
+== tabs One partition
 
 - Your data is usually located in the below place on the C drive,  
   - Go to this folder `C:\Users` and then select the user account that you are using.
@@ -57,12 +54,11 @@ import TabItem from '@theme/TabItem';
   - Create another partition using this guide https://youtu.be/_HgjasKuOBw
   - Save your data onto that other newly created partition.
 
-</TabItem>
-</Tabs>
+:::
 
 ---
 
-:::tip
+::: tip
 
 It's highly recommended to backup your critical data on some online drive as well, for example,  
 [GoogleDrive](https://drive.google.com/) - 15GB Free  
@@ -87,8 +83,7 @@ It's highly recommended to backup your critical data on some online drive as wel
 
 ## Windows 11 on Unsupported Hardware
 
-<details>
-  <summary>Click here to view</summary>
+::: details Click here to view
 
 - Rufus can help you install Windows 11 on unsupported hardware, but you will encounter problems with future feature updates since Microsoft does not permit that on such hardware.
 - To resolve this issue, you need to install IoT Enterprise 24H2 (2024) edition which is [officially supported](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/Hardware/System_Requirements?tabs=Windows11LTSC#optional-minimum-requirements) on unsupported hardware. Don't worry about it being an unusual edition; it's binary identical to other editions, with the primary difference being the licensing.
@@ -111,14 +106,12 @@ It's highly recommended to backup your critical data on some online drive as wel
 	  ```
 - When installing Windows, avoid selecting the "Previous version of the setup" option. The PID.txt method for virtual editions only works with the new installer in Windows 11 24H2 and later.
 
-![image](./assets/do_not_select_previous_version_of_setup.png)
-
 - That's it. The setup will auto-pick the IoT Enterprise edition.
 
 Alternatively, if you don't want to do that, you can install Windows normally and later change the edition to IoT Enterprise.
 
 
-:::note
+::: info
 
 Note For IoT Enterprise (GAC) **Not LTSC**:
 
@@ -132,10 +125,8 @@ This situation cannot be avoided because IoT Enterprise (GAC) only has an OEM ke
 
 `slmgr.vbs /ipk XQQYW-NFFMW-XJPBH-K8732-CKFFD`
 
-:::
 
-
-:::tip
+::: tip
 
 If you plan to use an ISO file to install Windows instead of a USB drive and want to edit the ISO file, follow these steps.
 
@@ -145,17 +136,9 @@ If you plan to use an ISO file to install Windows instead of a USB drive and wan
 -   Follow the on-screen instructions and add the file in `sources` folder as described above.
 -   Save the ISO, that's it.
 
-:::
-
-
-</details>
-
----
-
 ## Edition List During Windows Installation
 
-<details>
-  <summary>Click here to view</summary>
+::: details Click here to view
   
 - If your system has an OEM license installed by the manufacturer on the motherboard, then the Windows setup will not show the edition list and will automatically select the edition based on the license on the motherboard.
 - If you have such hardware and want to view the list of available editions for Windows installation, follow the steps below.
@@ -166,18 +149,16 @@ NoKeyChannel
 ```
 - Now you can view the edition list and pick the edition you want from Windows Vista to Windows 11. It also helps you avoid installing key in Windows 8/8.1 setup where key installation can not be skipped.
 
-:::note
+::: info
   
 - In Windows 11 24H2 and later, the new installer does not support this, so you need to select the "Previous version of the setup" option when the setup starts.
-
-![image](./assets/select_previous_version_of_setup.png)
 
 - If you are using PID.txt, please note that it will take precedence over ei.cfg.
 
 :::
 
 
-:::tip
+::: tip
 
 If you plan to use an ISO file to install Windows instead of a USB drive and want to edit the ISO file, follow these steps.
 
@@ -188,11 +169,6 @@ If you plan to use an ISO file to install Windows instead of a USB drive and wan
 -   Save the ISO, that's it.
 
 :::
-
-
-</details>
-
----
 
 ## Clean Install Windows
 
@@ -215,14 +191,11 @@ Rufus offers an option to bypass the Internet and Microsoft Account requirements
 
 This allows you to continue the installation without needing to connect to the Internet or use a Microsoft account.
 
-import ReactPlayer from 'react-player'
-
-<ReactPlayer controls width='75%' height='auto' src='/bypass_windows_11_internet_and_microsoft_account_requirement.mp4' />
 
 ---
 
-:::tip
+::: tip
 
--   You can [connect with us](troubleshoot.md) for help if you need.
+-   You can [connect with us](#) for help if you need.
 
 :::
