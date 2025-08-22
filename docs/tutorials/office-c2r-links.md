@@ -43,7 +43,7 @@ Microsoft 365 receive regular updates with new features and improvements across 
 
 ---
 
-**Russian** users need to follow [this guide](bypass-russian-geoblock.md) to bypass geoblock in Office downloading.
+**Russian** users need to follow [this guide](#) to bypass geoblock in Office downloading.
 
 :::
 
@@ -54,7 +54,7 @@ Microsoft 365 receive regular updates with new features and improvements across 
 -	O365 provides the most and latest features. If you want more apps, choose **O365ProPlusRetail**, and if you want fewer apps, use **O365AppsBasicRetail**.
 :::
 
--   **Need help?** Check [here](troubleshoot.md).
+-   **Need help?** Check [here](#).
 
 ------------------------------------------------------------------------
 

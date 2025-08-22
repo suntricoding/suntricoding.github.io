@@ -8,4 +8,4 @@ export default {
   enhanceApp({ app }) {
     enhanceAppWithTabs(app)
   }
-} satisfies Theme
+}
