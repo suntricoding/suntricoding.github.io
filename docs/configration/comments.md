@@ -60,16 +60,16 @@ params:
     system: "giscus"
     giscus:
       repo: "username/repo"           # GitHub repository
-      repoId: "R_xxx"                # Repository ID
-      category: "General"            # Discussion category
-      categoryId: "DIC_xxx"          # Category ID
-      mapping: "pathname"            # Mapping method
-      strict: "0"                    # Strict matching
-      reactionsEnabled: "1"          # Enable reactions
-      emitMetadata: "0"             # Metadata
-      inputPosition: "bottom"        # Input box position
+      repoId: "R_xxx"                 # Repository ID
+      category: "General"             # Discussion category
+      categoryId: "DIC_xxx"           # Category ID
+      mapping: "pathname"             # Mapping method
+      strict: "0"                     # Strict matching
+      reactionsEnabled: "1"           # Enable reactions
+      emitMetadata: "0"               # Metadata
+      inputPosition: "bottom"         # Input box position
       theme: "preferred_color_scheme" # Theme
-      lang: "en"                    # Language
+      lang: "en"                      # Language
 ```
 
 ### Langkah-Langkah Pengaturan
@@ -86,10 +86,10 @@ params:
   comments:
     system: "twikoo"
     twikoo:
-      envId: "your-env-id"          # Environment ID
-      region: "ap-shanghai"         # Region (optional)
+      envId: "your-env-id"              # Environment ID
+      region: "ap-shanghai"             # Region (optional)
       path: "window.location.pathname"  # Path
-      lang: "en"                   # Language
+      lang: "en"                        # Language
 ```
 
 
@@ -102,10 +102,10 @@ params:
   comments:
     system: "utterances"
     utterances:
-      repo: "username/repo"    # GitHub repo
-      issueTerm: "pathname"   # Issue map
-      label: "comment"        # Issue label
-      theme: "preferred-color-scheme"  # theme
+      repo: "username/repo"             # GitHub repo
+      issueTerm: "pathname"             # Issue map
+      label: "comment"                  # Issue label
+      theme: "preferred-color-scheme"   # theme
 ```
 
 
@@ -117,5 +117,5 @@ params:
     system: "waline"
     waline:
       serverURL: "your-waline-server"  # Waline server
-      lang: "zh-CN"                   # language
+      lang: "zh-CN"                    # language
 ```

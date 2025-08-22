@@ -15,9 +15,9 @@ menus:
   main:
     - name: nav.posts      # Nama Tampilan
       pageRef: /posts      # Referensi halaman
-      weight: 20          # Bobot sortir
+      weight: 20           # Bobot sortir
       params:
-        icon: posts       # Nama Icon
+        icon: posts        # Nama Icon
 
     - name: nav.categories
       pageRef: /categories

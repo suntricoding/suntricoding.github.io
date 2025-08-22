@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Jago Koding"
-  text: "Tema Hugo Modern dengan Berbagai Skema Warna"
-  tagline: Dibangun di TailwindCSS 4
+  name: "Jago Ngoding"
+  text: "Belajar budidaya kode (coding)"
+  tagline: Tutorial yang Mudah dipahamai
   image:
     src: /hero.svg
-    alt: JagoKoding
+    alt: JagoNgoding
   actions:
     - theme: brand
       text: Memulai

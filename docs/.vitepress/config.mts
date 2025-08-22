@@ -1,8 +1,16 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Jago Koding",
+
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
+  },
+
+  title: "Jagong",
   description: "Modern Hugo Theme with Multiple Color Schemes - Built on TailwindCSS 4.",
   head: [
     ['link',{ rel: 'icon', href: '/hero.svg'}],
@@ -15,7 +23,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Changelog', link: '/changelog' }
+      { text: 'Changelog', link: '/changelog' },
+      { text: 'FAQ', link: '/faq' }
     ],
 
     sidebar: [
@@ -48,6 +57,16 @@ export default defineConfig({
           { text: 'Comments', link: '/configration/comments' },
           { text: 'Gallery', link: '/configration/gallery' },
           { text: 'Custom Styles', link: '/configration/custom-style' }
+        ]
+      },
+      {
+        text: 'Tutorials',
+        items: [
+          { text: 'Check Status Aktivasi', link: '/tutorials/cas' },
+          { text: 'Aktivasi Windows & Office', link: '/tutorials/mas' },
+          { text: 'Install Window', link: '/tutorials/clean-install-windows' },
+          { text: 'Install Office', link: '/tutorials/office-c2r-links' },
+          { text: 'Remove Malware', link: '/tutorials/remove-malware' }
         ]
       }
     ],

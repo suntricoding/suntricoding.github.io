@@ -14,29 +14,29 @@ Konfigurasikan fungsionalitas galeri di `hugo.yaml` atau `frontmatter`:
 
 ```yaml
 params:
-# GLightbox
-lightbox:
-enabled: true
-loop: true
-width: 80vw
-height: 80vh
-touchNavigation: true
-draggable: true
-zoomable: true
-preload: true
-descPosition: bottom
+  # GLightbox
+  lightbox:
+    enabled: true
+    loop: true
+    width: 80vw
+    height: 80vh
+    touchNavigation: true
+    draggable: true
+    zoomable: true
+    preload: true
+    descPosition: bottom
 
-# Galeri Justified
-justified_gallery:
-enabled: true
-rowHeight: 300
-gutter: 30
-lastRow: center
-transitionDuration: 0,3 detik
-resizeDebounce: 100
-rowHeightTolerance: 0,25
-maxRowsCount: 999999
-calculateItemsHeight: false
+  # Justified Gallery
+  justified_gallery:
+    enabled: true
+    rowHeight: 300
+    gutter: 30
+    lastRow: center
+    transitionDuration: 0.3s
+    resizeDebounce: 100
+    rowHeightTolerance: 0.25
+    maxRowsCount: 999999
+    calculateItemsHeight: false
 ```
 
 ## Galeri Justified
