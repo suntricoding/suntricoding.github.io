@@ -17,17 +17,29 @@ hero:
       text: Live Demo
       link: https://coernet.github.io
 features:
-  - title: Skema Warna Ganda
-    details: Tersedia beberapa skema warna bawaan dengan sekali klik untuk beralih. Semua skema warna mendukung mode gelap dan dapat disesuaikan.
-    icon: 🌈
-  - title: Pengalaman Pengguna yang Unggul
-    details: Performa luar biasa dengan skor Lighthouse 96+, navigasi lengket kustom, dock multifungsi yang mendukung kembali ke halaman sebelumnya, kembali ke atas, lompat ke komentar, pencarian global, dan daftar isi.
-    icon: ⭐
-  - title: Penulisan yang Ditingkatkan
-    details: Mendukung Peringatan ala GitHub, lipatan ala Obsidian (+/-), rumus matematika, dan perenderan diagram.
-    icon: 📃
-  - title: Fitur yang Komprehensif
-    details: Dukungan i18n, integrasi beberapa sistem komentar dan sistem analitik umum, serta pembuatan galeri berbasis markdown dengan tata letak rata.
-    icon: ⚙
+  - title: Akses Informasi Aktivasi yang Terpusat
+    details: Menyediakan panduan dan tools untuk aktivasi Windows, Office, dan perangkat lunak lainnya secara gratis dalam satu platform yang mudah diakses.
+    icon: 🔓
+  - title: Antarmuka yang Sederhana dan Jelas
+    details: Desain bersih dan minimalis yang fokus pada konten, memudahkan pengguna untuk menavigasi dan menemukan informasi yang dibutuhkan dengan cepat.
+    icon: 🖥️
+  - title: Panduan Langkah-demi-Langkah
+    details: Setiap metode aktivasi dijelaskan dengan instruksi yang terstruktur, detail, dan mudah diikuti untuk semua tingkat pengguna.
+    icon: 📖
+  - title: Koleksi Script dan Tools
+    details: Menyediakan link download untuk berbagai script (seperti MAS) dan tools yang diperlukan untuk proses aktivasi, yang telah terkurasi.
+    icon: 🧰
+  - title: Pembaruan yang Rutin
+    details: Informasi dan tools yang disediakan selalu diperbarui untuk mengikuti perkembangan dan metode aktivasi terbaru dari Microsoft.
+    icon: 🔄
+  - title: Fokus pada Keamanan
+    details: Menyediakan file hash dan panduan verifikasi checksum untuk memastikan keaslian dan keamanan file yang didownload oleh pengguna.
+    icon: 🔒
+  - title: Ramah SEO dan Cepat
+    details: Website dioptimalkan untuk mesin pencari dan memiliki kecepatan loading yang tinggi, membuatnya mudah ditemukan dan nyaman digunakan.
+    icon: ⚡
+  - title: Komunitas yang Mendukung
+    details: (Jika berlaku) Menyediakan channel atau forum diskusi untuk bertanya dan berbagi informasi terkait masalah aktivasi.
+    icon: 💬
 ---
 
